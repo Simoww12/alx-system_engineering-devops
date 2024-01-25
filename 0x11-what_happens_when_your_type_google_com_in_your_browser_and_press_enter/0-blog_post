@@ -1,0 +1,27 @@
+Have you ever wondered what happens behind the scenes when you type “https://www.google.com" into your browser and hit Enter? The process is intricate and involves several components working seamlessly to deliver the webpage to your screen. In this blog post, we’ll unravel the layers of this digital journey, covering key elements such as DNS request, TCP/IP, Firewall, HTTPS/SSL, Load-balancer, Web server, Application server, and Database.
+
+DNS Request
+The journey begins with a Domain Name System (DNS) request. When you type a URL into your browser, it needs to convert the human-readable domain name (www.google.com) into an IP address. The DNS server translates the domain name into an IP address, allowing your browser to locate the server on the internet.
+
+TCP/IP
+Once the browser has the IP address, it initiates a connection using the Transmission Control Protocol (TCP) and the Internet Protocol (IP). TCP establishes a reliable connection between your computer and the server, while IP ensures that data is correctly addressed and routed across the internet.
+
+Firewall
+As the connection is established, it might pass through a firewall, a security system that monitors and controls incoming and outgoing network traffic. Firewalls protect against unauthorized access and potential threats, ensuring a secure connection between your computer and the server.
+
+HTTPS/SSL
+To secure the data exchanged between your browser and the server, the communication is encrypted using the Hypertext Transfer Protocol Secure (HTTPS) protocol, which relies on the Secure Socket Layer (SSL) or Transport Layer Security (TLS) protocols. This encryption ensures that sensitive information, such as login credentials or personal data, remains private and secure during transit.
+
+Load-Balancer
+High-traffic websites often use load balancers to distribute incoming network traffic across multiple servers. Load balancing ensures optimal resource utilization, prevents server overload, and enhances the overall performance and reliability of the website. When you connect to Google, a load balancer may direct your request to one of several Google servers.
+
+Web Server
+Upon reaching the appropriate server, the web server processes the request. In the case of Google, their web servers handle a massive number of requests simultaneously. The web server retrieves the requested web page and sends it back to your browser.
+
+Application Server
+In some cases, the web server may need assistance from an application server. Application servers are responsible for executing application logic, handling dynamic content generation, and interacting with databases. For Google, the application server might be involved in processing search queries, displaying personalized content, and more.
+
+Database
+The final step involves accessing the database to retrieve specific information. In Google’s case, the database holds vast amounts of indexed data that the application server may query to generate search results or other personalized content. The retrieved data is then sent back through the application server, web server, and finally to your browser.
+
+The journey of a URL from your browser to the server and back is a complex but fascinating process, involving multiple layers of technology working seamlessly together. From DNS requests to load balancers, encryption to database queries, each component plays a crucial role in ensuring a secure, efficient, and reliable internet browsing experience. Understanding these intricacies enhances our appreciation for the technological marvel that brings the web to our fingertips.
